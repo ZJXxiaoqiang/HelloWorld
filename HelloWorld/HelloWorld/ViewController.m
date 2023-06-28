@@ -17,7 +17,17 @@
     [super viewDidLoad];
     NSLog(@"2222");
     NSLog(@"3333");
+    NSLog(@"5555");
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"666");
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"7777");
+}
 
 @end
