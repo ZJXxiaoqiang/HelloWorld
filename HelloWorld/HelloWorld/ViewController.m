@@ -25,4 +25,9 @@
     NSLog(@"666");
 }
 
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"7777");
+}
+
 @end
